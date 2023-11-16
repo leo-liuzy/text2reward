@@ -101,7 +101,7 @@ if __name__ == '__main__':
         assert (0)
 
     # initialize wandb
-    run = wandb.init(project=args.project_name, entity="code4reward",
+    run = wandb.init(project=args.project_name, entity="leo-liuzey",
                      config={"env": "{}".format(args.env_id)},
                      name=args.env_id[:-2] + args.exp_name, sync_tensorboard=True, save_code=True)
     

@@ -1,0 +1,221 @@
+{
+    "os": "Linux-5.4.0-135-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.16",
+    "heartbeatAt": "2023-11-15T22:36:21.151992",
+    "startedAt": "2023-11-15T22:36:20.154182",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--env_id",
+        "LiftCube-v0",
+        "--train_num",
+        "8",
+        "--eval_num",
+        "5",
+        "--eval_freq",
+        "12800",
+        "--max_episode_steps",
+        "100",
+        "--rollout_steps",
+        "3200",
+        "--train_max_steps",
+        "2_000_000",
+        "--seed",
+        "0",
+        "--eval_seed",
+        "1",
+        "--exp_name",
+        "oracle"
+    ],
+    "state": "running",
+    "program": "/data/users/zliu/text2reward/run_maniskill/ppo.py",
+    "codePathLocal": "run_maniskill/ppo.py",
+    "codePath": "run_maniskill/ppo.py",
+    "git": {
+        "remote": "git@github.com:leo-liuzy/text2reward.git",
+        "commit": "5f276346ab471f0524eb4f2d191f8912c11253ad"
+    },
+    "email": "zliu@cs.utexas.edu",
+    "root": "/data/users/zliu/text2reward",
+    "host": "fuji",
+    "username": "zliu",
+    "executable": "/home/zliu/miniconda3/envs/t2r/bin/python",
+    "cpu_count": 14,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 1260.6865,
+        "min": 1200.0,
+        "max": 4642.857142857143
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.144,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.309,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.82,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.588,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1300.166,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.156,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1421.156,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1201.379,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1300.595,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.729,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1353.963,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.752,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.275,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.551,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.435,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.264,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.239,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.499,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1301.353,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1201.124,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1585.762,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.256,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1300.472,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.808,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1397.941,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1201.069,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.485,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.433,
+            "min": 1200.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 904.9861106872559,
+            "used": 805.9531097412109
+        }
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 251.39965057373047
+    }
+}

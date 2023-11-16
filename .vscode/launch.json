@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "/data/users/zliu/text2reward/run_maniskill/ppo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--env_id", "LiftCube-v0",
+                "--train_num", "8",
+                "--eval_num", "5",
+                "--eval_freq", "12800",
+                "--max_episode_steps", "100",
+                "--rollout_steps", "3200",
+                "--train_max_steps", "2_000_000",
+                "--seed", "0", 
+                "--eval_seed", "1",  
+                "--exp_name", "oracle"
+                // "debug=false", 
+                // "rerun_eval=False", 
+                // "output_dir=outputs/2023-11-05/09-05-31",
+                // "prompt=zero-shot",
+                // "prompt.include_update=True",
+                // "prompt.few_shot_examples_strategy=diff",
+                // "prompt.random_few_shot_examples=True",
+                // "model.model_name_or_path=/home/zliu/shared_resources/models/llama2/hf/CodeLlama-34b-Python-hf",
+                // "model.load_in_8bit=True",
+            ]
+        }
+    ]
+}
